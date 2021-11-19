@@ -71,15 +71,15 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<CategoryDomain> categoryList = new ArrayList<>();
 //        categoryList.add(new CategoryDomain("Alejandro", "cat_1"));
-        categoryList.add(new CategoryDomain("Autoctono", "mini_autoctonos"));
+        categoryList.add(new CategoryDomain("Autoctonos", "mini_autoctonos"));
         categoryList.add(new CategoryDomain("Caporeles", "mini_caporales"));
-        categoryList.add(new CategoryDomain("Cullaguad", "mini_cullaguada"));
+        categoryList.add(new CategoryDomain("Cullaguads", "mini_cullaguada"));
         categoryList.add(new CategoryDomain("Diablada", "mini_diablada"));
-        categoryList.add(new CategoryDomain("Doctor", "mini_doctorcitos"));
-        categoryList.add(new CategoryDomain("Estilizad", "mini_estilizadas"));
+        categoryList.add(new CategoryDomain("Doctorcitos", "mini_doctorcitos"));
+        categoryList.add(new CategoryDomain("Estilizadas", "mini_estilizadas"));
         categoryList.add(new CategoryDomain("Incas", "mini_incas"));
-        categoryList.add(new CategoryDomain("Kallawaya", "mini_kallawayas"));
-        categoryList.add(new CategoryDomain("Kantus", "mini_kantus_sarta_ani"));
+        categoryList.add(new CategoryDomain("Kallawayas", "mini_kallawayas"));
+        categoryList.add(new CategoryDomain("Kantus Sartañani", "mini_kantus_sarta_ani"));
         categoryList.add(new CategoryDomain("Llamerada", "mini_llamerada"));
         categoryList.add(new CategoryDomain("Morenada", "mini_morenada"));
         categoryList.add(new CategoryDomain("Negritos", "mini_negritos"));
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         categoryList.add(new CategoryDomain("Tarqueda", "mini_tarqueada"));
         categoryList.add(new CategoryDomain("Tinku", "mini_tinku"));
         categoryList.add(new CategoryDomain("Tobas", "mini_tobas"));
-        categoryList.add(new CategoryDomain("WacaWaca", "mini_waca_tokori"));
+        categoryList.add(new CategoryDomain("Waca Tokori", "mini_waca_tokori"));
 //        categoryList.add(new CategoryDomain("Burger", "cat_2"));
 //        categoryList.add(new CategoryDomain("Hotdog", "cat_3"));
 //        categoryList.add(new CategoryDomain("Drink", "cat_4"));
