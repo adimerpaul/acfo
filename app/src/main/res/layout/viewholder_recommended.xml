@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:background="@drawable/white_recommeded_btn"
-    android:elevation="3dp">
+    android:elevation="3dp"
+    >
 
     <TextView
         android:id="@+id/fee"

@@ -52,6 +52,11 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
             intent.putExtra("object", RecommendedDomains.get(position));
             holder.itemView.getContext().startActivity(intent);
         });
+        holder.pic.setOnClickListener(v -> {
+            Intent intent = new Intent(holder.itemView.getContext(), ShowDetailActivity.class);
+            intent.putExtra("object", RecommendedDomains.get(position));
+            holder.itemView.getContext().startActivity(intent);
+        });
 
     }
 
@@ -65,6 +70,7 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
         TextView title, fee;
         ImageView pic;
         ImageView addBtn;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
