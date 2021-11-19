@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<CategoryDomain> categoryList = new ArrayList<>();
 //        categoryList.add(new CategoryDomain("Alejandro", "cat_1"));
         categoryList.add(new CategoryDomain("Autoctono", "mini_autoctonos"));
+        categoryList.add(new CategoryDomain("Caporeles", "mini_caporales"));
 //        categoryList.add(new CategoryDomain("Burger", "cat_2"));
 //        categoryList.add(new CategoryDomain("Hotdog", "cat_3"));
 //        categoryList.add(new CategoryDomain("Drink", "cat_4"));
